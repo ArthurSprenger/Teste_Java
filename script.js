@@ -1,3 +1,4 @@
+
 console.log('Hello, word');
 
 
@@ -30,4 +31,27 @@ while (i>1) {
 }
 
 console.log(i);
+
+function reverseString(str){
+  let separar = str.split("");
+  let reverser = separar.reverse();
+  let mudei = reverser.join("");
+  console.log(mudei);
+}
+reverseString('Icaro');
+
+function contaCaracteres(str){
+  let str2 = str.length=8;
+  console.log(str2);
+}
+contaCaracteres(prompt("Digite uma palavra: "));
+
+
+const carro = new Object();
+carro.marca = prompt("Digite a marca: ");
+carro.ano = prompt("Digite o ano: ");
+carro.modelo = prompt("Digite o modelo do seu carro: ");
+console.log(carro.marca);
+console.log(carro.ano);
+console.log(carro.modelo);
 
