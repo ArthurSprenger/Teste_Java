@@ -1,4 +1,4 @@
-
+/*
 console.log('Hello, word');
 
 
@@ -54,4 +54,9 @@ carro.modelo = prompt("Digite o modelo do seu carro: ");
 console.log(carro.marca);
 console.log(carro.ano);
 console.log(carro.modelo);
+/*/
 
+function ConstatarSinal(){
+  let numero = prompt("Digite o numero que voce quer saber")
+  math.sign(numero)
+}
