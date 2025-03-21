@@ -54,9 +54,67 @@ carro.modelo = prompt("Digite o modelo do seu carro: ");
 console.log(carro.marca);
 console.log(carro.ano);
 console.log(carro.modelo);
+
+
+function constatarSinal(numero){
+  let x = Math.sign(numero);
+  console.log(x);
+}
+
+let numero = prompt("Digite o numero que voce quer saber");
+
+constatarSinal(numero);
+0
+
+
+function converterTemperatura (temperatura){
+  temperatura = temperatura * 1.8 + 32;
+  console.log(temperatura);
+  }
+
+  temperatura = prompt("Digite a temperatura que voce deseja converter")
+
+  converterTemperatura(temperatura)
+
+
+let o = 0;
+let i = 1
+while (i<=100) {
+  console.log(i+": "+o);
+  o = o + i;
+  i = i + 1;
+}
+
+
+
+let texto = prompt("Digite um texto:");
+
+function subistituirPalavra(text){
+  console.log(text.replace(/azul/g, "vermelho"));
+}
+
+let texto = prompt("Digite o texto")
+subistituirPalavra(texto);
+
 /*/
 
-function ConstatarSinal(){
-  let numero = prompt("Digite o numero que voce quer saber")
-  math.sign(numero)
+function verificarTamanho(){
+
+
 }
+
+/* 20 */
+
+function contarVogais(palavra){
+
+  const vogais = "aeiouAEIOU";
+  let contador = 0;
+
+  for (let lettra of palavra){
+    if(vogais.incluides(letra)){
+      contador++;
+    }
+  }
+  console.log(contador)
+}
+contarVogais(palavra)
